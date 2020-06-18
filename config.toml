@@ -10,13 +10,8 @@ enableEmoji = true
 theme = "even"
 enableGitInfo = false # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
-# Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
-pygmentsOptions = "linenos=table"
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
 
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
@@ -185,7 +180,7 @@ copyright = "2019"            # default: author.name ↓        # 默认为下�
 
   [params.social]
     a-email = "mailto:slash.gordon.dev@gmail.com "
-    b-stack-overflow = "https://stackoverflow.com/users/1683870/cdieck"
+#    b-stack-overflow = "https://stackoverflow.com/users/1683870/cdieck"
     g-github = "https://github.com/SlashGordon"
     m-instagram = "https://www.instagram.com/mr.carlo.labrador/"
 
@@ -195,5 +190,18 @@ copyright = "2019"            # default: author.name ↓        # 默认为下�
     anonymizeIP = true      # 12.214.31.144 -> 12.214.31.0
   [privacy.youtube]
     privacyEnhanced = true
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

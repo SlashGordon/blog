@@ -8,7 +8,7 @@ categories: ["private"]
 ---
 
 {{< raw >}}
-<img src="/images/avatar.jpg" height="auto" width="200" style="float:left;padding:20px;border-radius:50%">
+<img src="/images/avatar.png" height="auto" width="200" style="float:left;padding:20px;border-radius:50%">
 {{< /raw >}}
 
 ## SlashGordon
