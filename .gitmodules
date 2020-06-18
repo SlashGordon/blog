@@ -1,0 +1,10 @@
+[submodule "themes/even"]
+	path = themes/even
+	url = git@github.com:olOwOlo/hugo-theme-even.git
+
+[submodule "public"]
+	path = public
+	url = git@github.com:SlashGordon/slashgordon.github.io.git
+[submodule "even"]
+	path = even
+	url = git@github.com:olOwOlo/hugo-theme-even.git
