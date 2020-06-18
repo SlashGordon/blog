@@ -3,7 +3,7 @@
 # The URL the site will be built for
 base_url = "/"
 
-
+title = "my private blog"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -195,3 +195,5 @@ copyright = "2019"            # default: author.name ↓        # 默认为下�
     anonymizeIP = true      # 12.214.31.144 -> 12.214.31.0
   [privacy.youtube]
     privacyEnhanced = true
+[markup.goldmark.renderer]
+  unsafe = true
