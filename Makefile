@@ -22,5 +22,5 @@ deploy:
 	# Build the project.
 	$(HUGO) -D
 
-	cd ./public && git add . && git commit -m $(COMMIT_MESSAGE) && git push
+	cd ./public && git config user.name "SlashGordon" && git config user.email "slash.gordon.dev@gmail.com" && git add . && git commit -m $(COMMIT_MESSAGE) && git push
 	git commit -am "update" && git push
