@@ -34,3 +34,7 @@ deploy:
 
 	cd ./public && git config user.name "SlashGordon" && git config user.email "slash.gordon.dev@gmail.com" && git add . && git commit -m $(COMMIT_MESSAGE) && git push
 	git commit -am "update" && git push
+
+rebuild:
+	echo "\033[0;32mRebuilding site with updated content...\033[0m"
+	$(HUGO) hugo -D

@@ -40,4 +40,7 @@
     </span>
     <span class="author">{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
   </span>
+  <div class="legal-links">
+    <a href="{{ "impressum" | relURL }}">Impressum</a> | <a href="{{ "privacy" | relURL }}">Privacy Policy</a>
+  </div>
 </div>
