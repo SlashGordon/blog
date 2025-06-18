@@ -107,8 +107,8 @@ copyright = "2019"            # default: author.name ↓        # 默认为下�
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = ["custom.css"]
-  customJS = ["contact-obfuscation.js"]
+  customCSS = ["custom.css", "cookie-consent.css"]
+  customJS = ["contact-obfuscation.js", "cookie-consent.js"]
 
   uglyURLs = false          # please keep same with uglyurls setting
 
