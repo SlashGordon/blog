@@ -1,0 +1,17 @@
+/* Custom styles for legal links */
+.legal-links {
+  margin-top: 10px;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.legal-links a {
+  color: #999;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.legal-links a:hover {
+  color: #555;
+  text-decoration: underline;
+}
