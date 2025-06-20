@@ -109,6 +109,9 @@ copyright = "2019"            # default: author.name ↓        # 默认为下�
   #   (relative to /static/css and /static/js respectively)
   customCSS = ["custom.css", "cookie-consent.css"]
   customJS = ["contact-obfuscation.js", "cookie-consent.js"]
+  
+  # Additional scripts loaded in head
+  additionalScripts = []
 
   uglyURLs = false          # please keep same with uglyurls setting
 

@@ -41,7 +41,7 @@ rebuild:
 
 download-libs:
 	BASH_ENV=/Users/c.dieck/.bashrc.amazonq /usr/bin/env -i echo "\033[0;32mDownloading JS libraries locally...\033[0m"
-	mkdir -p static/lib/jquery static/lib/slideout static/lib/fancybox static/lib/timeago static/lib/flowchart static/lib/sequence
+	mkdir -p static/lib/jquery static/lib/slideout static/lib/fancybox static/lib/timeago static/lib/flowchart static/lib/sequence static/lib/repo-card
 	curl -s https://code.jquery.com/jquery-3.2.1.min.js -o static/lib/jquery/jquery-3.2.1.min.js
 	curl -s https://unpkg.com/slideout@1.0.1/dist/slideout.min.js -o static/lib/slideout/slideout-1.0.1.min.js
 	curl -s https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js -o static/lib/fancybox/jquery.fancybox-3.1.20.min.js
@@ -55,3 +55,4 @@ download-libs:
 	curl -s https://cdn.jsdelivr.net/npm/underscore@1.8.3/underscore-min.js -o static/lib/sequence/underscore-1.8.3.min.js
 	curl -s https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.js -o static/lib/sequence/sequence-diagram-2.0.1.min.js
 	curl -s https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.css -o static/lib/sequence/sequence-diagram-2.0.1.min.css
+	curl -s https://tarptaeya.github.io/repo-card/repo-card.js -o static/lib/repo-card/repo-card.js
