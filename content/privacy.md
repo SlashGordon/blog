@@ -14,7 +14,7 @@ This blog does not collect, store, or process any personal information from visi
 ### Hosting
 This website is hosted on GitHub Pages. GitHub may collect visitor IP addresses in server logs for security and service integrity purposes. See the [GitHub Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement) for details.
 
-### 4. Contact
+###Contact
 If you have any questions about this privacy policy, please contact:
 
 **Name:** <span data-obfuscated="name"></span>  
