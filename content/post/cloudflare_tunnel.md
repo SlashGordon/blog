@@ -28,7 +28,9 @@ Our setup relies on a single Cloudflare Tunnel container that acts as the secure
 
 - **Docker Bridge Network**: We use a dedicated network (`app_network`) that allows the tunnel container to communicate with Gitea and Jellyfin using container names as DNS entries.
 - **Zero Port Forwarding**: All traffic flows through Cloudflare's global network, eliminating the need to expose your home IP or open router ports.
-- **Service Isolation**: Each service runs in its own container with clearly defined networking boundaries.## 2. The Complete Docker Compose Configuration
+- **Service Isolation**: Each service runs in its own container with clearly defined networking boundaries.
+
+## 2. The Complete Docker Compose Configuration
 
 This configuration orchestrates all three services: Gitea (Git server), Jellyfin (media server), and the Cloudflare Tunnel for secure external access.
 
